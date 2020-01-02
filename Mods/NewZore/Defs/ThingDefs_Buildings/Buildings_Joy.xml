@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>NZ_PersonalComputer</defName>
+		<label>persional computer</label>
+		<description>A old persional computer</description>
+		<graphicData>
+      <texPath>Things/Buildings/Joy/NZ_PersonalComputer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <fillPercent>0.15</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <building>
+      <joyKind>NZ_Internet</joyKind>
+    </building>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <MarketValue>500</MarketValue>
+      <Mass>10</Mass>
+      <JoyGainFactor>1.4</JoyGainFactor>
+    </statBases>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

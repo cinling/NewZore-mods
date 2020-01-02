@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<!-- EN: persional computer -->
+  <NZ_PersonalComputer.label>个人电脑</NZ_PersonalComputer.label>
+  <!-- EN: A persional computer -->
+  <NZ_PersonalComputer.description>一台可接入互联网的机器</NZ_PersonalComputer.description>
+  
+</LanguageData>
